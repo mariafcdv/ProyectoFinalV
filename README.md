@@ -1,15 +1,17 @@
 # Proyecto | Sistema de gestion de Biblioteca universitaria
-Mariafernanda Castro Del Vecchio
-0900-24-15601
+Mariafernanda Castro Del Vecchio  
+
+0900-24-15601  
+
 Programacion III - Universidad Mariano Galvez de Guatemala
 
 ## Descripcion del proyecto:
 Este programa de consola es un proyecto que implementa seis estructuras de datos diferentes, cada una fue seleccionada segun las necesidades del modulo al que pertenecen, gestiona una biblioteca universitaria llevando el registro de libros, usuarios, prestamos y devoluciones, grafo que relaciona recomendaciones de libros y un historial de cambios para mantener un registro profesional de los cambios. 
--Registra, busca por codigo y elimina libros
--Registra y busca usuarios por codigo
--Permite el registro de nuevos prestamos y devoluciones dependiendo disponibilidad
--Cola de espera si un libro ya fue prestado y aun no devuelto
--Grafo que relaciona libros y muestra recomendaciones de lectura
+- Registra, busca por codigo y elimina libros
+- Registra y busca usuarios por codigo
+- Permite el registro de nuevos prestamos y devoluciones dependiendo disponibilidad
+- Cola de espera si un libro ya fue prestado y aun no devuelto
+- Grafo que relaciona libros y muestra recomendaciones de lectura
 
 ## Estructuras de datos:
 1. Lista enlazada: Registro cronologico de prestamos -> "ListaEnlazadaPrestamos"
@@ -20,16 +22,18 @@ Este programa de consola es un proyecto que implementa seis estructuras de datos
 6. Grafo: Relaciones y recomendaciones de libros BST -> "GrafoRelacionesLibros"
 
 ## Requisitos de ejecucion:
--Java version 17 o superior.
--IDE recomendado: IntelliJ IDEA.
+* Java version 17 o superior.
+* IDE recomendado: IntelliJ IDEA.
 
 ## Ejecucion:
 **1. Clonar repo o descomprimir .zip, se adjuntan ambos.:**
-Desde la terminal clonar URL del repositorio de GitHub o descargar carpeta .zip y descomprimir desde archivos locales.
+Desde la terminal clonar URL del repositorio de GitHub o descargar carpeta .zip y descomprimir desde archivos locales.  
+
 **2. Compilar desde terminal o Java IDE:**
-En terminal usar cd para abrir carpeta y crear directorio para ejecucion con el comando: mkdir -p out y encontrar fuente: find src -name "*.java | xargs javac -d out -sourcepath src
+En terminal usar cd para abrir carpeta y crear directorio para ejecucion con el comando: mkdir -p out y encontrar fuente: find src -name "*.java | xargs javac -d out -sourcepath src  
+
 **3. Ejecutar:**
-Dese **terminal** usar comando: java -cp out main.Main
+Dese **terminal** usar comando: java -cp out main.Main. 
 **Desde IntelliJ IDEA:** abrir la carpeta `ProyectoFinal` como proyecto, marcar `src` como Sources Root y ejecutar `Main.java`.  
 
 ## Uso del programa:
