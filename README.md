@@ -5,11 +5,11 @@ Programacion III - Universidad Mariano Galvez de Guatemala
 
 ## Descripcion del proyecto:
 Este programa de consola es un proyecto que implementa seis estructuras de datos diferentes, cada una fue seleccionada segun las necesidades del modulo al que pertenecen, gestiona una biblioteca universitaria llevando el registro de libros, usuarios, prestamos y devoluciones, grafo que relaciona recomendaciones de libros y un historial de cambios para mantener un registro profesional de los cambios. 
->Registra, busca por codigo y elimina libros
->Registra y busca usuarios por codigo
->Permite el registro de nuevos prestamos y devoluciones dependiendo disponibilidad
->Cola de espera si un libro ya fue prestado y aun no devuelto
->Grafo que relaciona libros y muestra recomendaciones de lectura
+-Registra, busca por codigo y elimina libros
+-Registra y busca usuarios por codigo
+-Permite el registro de nuevos prestamos y devoluciones dependiendo disponibilidad
+-Cola de espera si un libro ya fue prestado y aun no devuelto
+-Grafo que relaciona libros y muestra recomendaciones de lectura
 
 ## Estructuras de datos:
 1. Lista enlazada: Registro cronologico de prestamos -> "ListaEnlazadaPrestamos"
@@ -20,8 +20,8 @@ Este programa de consola es un proyecto que implementa seis estructuras de datos
 6. Grafo: Relaciones y recomendaciones de libros BST -> "GrafoRelacionesLibros"
 
 ## Requisitos de ejecucion:
->Java version 17 o superior.
->IDE recomendado: IntelliJ IDEA.
+-Java version 17 o superior.
+-IDE recomendado: IntelliJ IDEA.
 
 ## Ejecucion:
 **1. Clonar repo o descomprimir .zip, se adjuntan ambos.:**
@@ -50,5 +50,5 @@ La **pila tiene arreglo propio porque al llenarse duplica su tamano**, lo cual e
 El **grafo relacional de libro se estructura con una lista adyacente** ya que esa usa 0(V+E) de memoria ante el 0(V^2) de la matriz, volviendose mas eficiente a comparacion.
 
 ## Autor
-Mariafernanda Castro
+Mariafernanda Castro,
 Guatemala 30 de mayo 2026  
