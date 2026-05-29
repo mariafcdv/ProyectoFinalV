@@ -36,12 +36,8 @@ public class Libro {
 
     @Override
     public String toString() {
-        return "Código: " + codigo +
-
-                " | Título: " + titulo +
-
-                " | Autor: " + autor +
-
-                " | Disponible: " + disponible;
+        return String.format("[%s] %s - %s | %s",
+                codigo, titulo, autor,
+                disponible ? "DISPONIBLE" : "PRESTADO");
     }
 }
